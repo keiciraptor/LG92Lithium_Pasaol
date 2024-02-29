@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+<body>
+    <img id="image" src="fittingroom.jpeg" style="height: 300px; width: 300px;">
+    <button onclick="changeImage()">Change</button>
+    <button onclick="changeImageBack()">Revert</button>
+
+    <script>
+        function changeImage()
+        {
+            image.src='harhart.jpeg';
+        }
+        function changeImageBack()
+        {
+            image.src='fittingroom.jpeg';
+        }
+    </script>
+
+
+</body>
+</html>
